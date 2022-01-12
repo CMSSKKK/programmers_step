@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NewIdRecommend" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-01-11T14:09:37" hostname="Aaron-MacBookPro.local" time="0.121">
+  <properties/>
+  <testcase name="step1()" classname="NewIdRecommend" time="0.063"/>
+  <testcase name="step2()" classname="NewIdRecommend" time="0.002"/>
+  <testcase name="step3()" classname="NewIdRecommend" time="0.001"/>
+  <testcase name="step4()" classname="NewIdRecommend" time="0.005"/>
+  <testcase name="step5()" classname="NewIdRecommend" time="0.003"/>
+  <testcase name="step6()" classname="NewIdRecommend" time="0.001"/>
+  <testcase name="step7()" classname="NewIdRecommend" time="0.003"/>
+  <testcase name="step8()" classname="NewIdRecommend" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

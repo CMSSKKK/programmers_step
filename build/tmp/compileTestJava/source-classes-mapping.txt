@@ -1,4 +1,7 @@
-lottos.java
- lottos
 numberStringAndWords.java
  numberStringAndWords
+lottos.java
+ lottos
+NewIdRecommend.java
+ NewIdRecommend
+ NewIdRecommend$RecommendId

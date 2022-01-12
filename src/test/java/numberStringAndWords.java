@@ -16,15 +16,6 @@ public class numberStringAndWords {
             "eight", 8,
             "nine", 9);
 
-    static String[] numbers = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
-
-    static int string2int(String str) {
-        for (int i = 0; i < numbers.length; i++) {
-            str = str.replace(numbers[i], Integer.toString(i));
-        }
-        return Integer.parseInt(str);
-    }
-
     static int solve(String s) {
 
         StringBuilder answer = new StringBuilder();
@@ -53,5 +44,16 @@ public class numberStringAndWords {
     private static boolean isStringNum(String str) {
         return str.length() >= 3 && numberMap.containsKey(str);
     }
+
+    static String[] numbers = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+
+    static int string2int(String str) {
+        for (int i = 0; i < numbers.length; i++) {
+            str = str.replace(numbers[i], Integer.toString(i));
+        }
+        return Integer.parseInt(str);
+    }
+
+
 
 }
