@@ -5,3 +5,6 @@ lottos.java
 NewIdRecommend.java
  NewIdRecommend
  NewIdRecommend$RecommendId
+report.java
+ report
+ report$Id

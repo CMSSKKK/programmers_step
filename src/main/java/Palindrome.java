@@ -13,7 +13,7 @@ public class Palindrome {
         System.out.println(kk);
         System.out.println();
         Set<Integer> mySet = new HashSet<>();
-        mySet.add()
+
 
     }
 
