@@ -1,10 +1,16 @@
-numberStringAndWords.java
- numberStringAndWords
-lottos.java
- lottos
 NewIdRecommend.java
  NewIdRecommend
  NewIdRecommend$RecommendId
+lottos.java
+ lottos
+Crane.java
+ Crane
 report.java
  report
  report$Id
+numberStringAndWords.java
+ numberStringAndWords
+RidiculousString.java
+ RidiculousString
+KthNumber.java
+ KthNumber
