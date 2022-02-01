@@ -1,4 +1,4 @@
-import org.junit.jupiter.api.Test;
+
 
 import java.util.*;
 
@@ -37,7 +37,6 @@ public class FailureRate {
             int temp = stageUserNumber[i];
             if(temp == 0) {
                 stagesInfo.add(new Stage(i, 0));
-                total -= temp;
                 continue;
             }
             stagesInfo.add(new Stage(i, (double) temp/total));
@@ -45,7 +44,7 @@ public class FailureRate {
 
         }
 
-        Collections.sort(stagesInfo, (o1, o2) -> Double.compare(o2.rate,o1.rate));
+        Collections.sort(stagesInfo, (o1, o2) -> Double.compare(o2.rate, o1.rate));
 
         int[] test = stagesInfo.stream().mapToInt(s -> s.number).toArray();
 
