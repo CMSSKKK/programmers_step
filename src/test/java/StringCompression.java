@@ -1,7 +1,8 @@
 public class StringCompression {
 
     public static void main(String[] args) {
-        String s = "aabbaccc";
+        String s = "abcabcabcabc";
+
         int answer = s.length();
         for (int i = 1; i <= s.length() / 2; i++) {
             String value = s.substring(0, i);
